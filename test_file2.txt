@@ -1,0 +1,132 @@
+    1  ll
+    2  pwd
+    3  cd /d
+    4  cd vp_devenv/
+    5  vagrant up
+    6  ll
+    7  vagrant suspend
+    8  vagrant up
+    9  cd /d/vp_devenv/
+   10  vagrant up
+   11  vagrant suspend
+   12  cd /d/vp_devenv/
+   13  vagrant up
+   14  vagrant suspend
+   15  vagrant up
+   16  vagrant suspend
+   17  git help git
+   18  git config --list
+   19  pwd
+   20  mkdir ~/test-repo
+   21  cd ~test-repo
+   22  cd ~/test-repo
+   23  git init
+   24  git remote add origin https://github.com/markulai/test-repo.git
+   25  ll
+   26  history
+   27  ls
+   28  ll
+   29  touch test.txt
+   30  add .
+   31  git add .
+   32  ll
+   33  git -?
+   34  git --help
+   35  git status
+   36  git commit -m "file created"
+   37  git push
+   38  git push --set-upstream origin master
+   39  set
+   40  set |grep -i proxy
+   41  export HTTPS_PROXY_ORIG=http://10.144.1.10:8080
+   42  export HTTP_PROXY_ORIG=http://10.144.1.10:8080
+   43  export HTTPS_PROXY=
+   44  export HTTP_PROXY=
+   45  git push
+   46  git push --set-upstream origin master
+   47  git clone https://github.com/markulai/test-repo.git
+   48  ls
+   49  pwd
+   50  git push
+   51  git push --set-upstream origin master
+   52  git pull
+   53  git add .
+   54  git rm 
+   55  git rm --cached test-repo
+   56  git rm -f --cached test-repo
+   57  pwd
+   58  cd ..
+   59  git rm test-repo
+   60  cd test-repo/
+   61  ll
+   62  cd ..
+   63  ll
+   64  mkdir test-repo2
+   65  cd test-repo2
+   66  git clone https://github.com/markulai/test-repo.git
+   67  ls
+   68  touch test.txt
+   69  git add .
+   70  pwd
+   71  ll
+   72  ls
+   73  pwd
+   74  cd ..
+   75  ll
+   76  rmdir test-repo
+   77  cd test-repo2
+   78  git init
+   79  ls -al
+   80  cd ..
+   81  ls
+   82  cd test-repo
+   83  ls -al
+   84  rm -rf .git
+   85  cd ..
+   86  rmdir test-repo
+   87  cd test-repo
+   88  ll
+   89  ls -al
+   90  pwd
+   91  cd ..
+   92  rm -rf test-repo
+   93  rm -rf test-repo2
+   94  mkdir test-repo
+   95  cd test-repo/
+   96  git clone https://github.com/markulai/test-repo.git
+   97  ls -al
+   98  touch test_file.txt
+   99  git add .
+  100  cd test-repo/
+  101  ls
+  102  cp ../test_file.txt .
+  103  git add .
+  104  git commit -m "first commit"
+  105  cd ..
+  106  ls
+  107  rm test_file.txt 
+  108  cd test-repo/
+  109  ls
+  110  git push
+  111  pwd
+  112  cd ..
+  113  cd ..
+  114  pwd
+  115  cd mkdir gitrepos
+  116  mkdir gitrepos
+  117  cd test-repo/
+  118  cd ..
+  119  cd test-repo/
+  120  cp -r test-repo ../gitrepos/
+  121  cd ..
+  122  pwd
+  123  rm -rf test-repo/
+  124  cd tes
+  125  ls
+  126  cd gitrepos/
+  127  ls
+  128  cd test-repo/
+  129  ls
+  130  ll
+  131  touch test_file2.txt
+  132  history >> test_file2.txt 
